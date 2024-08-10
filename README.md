@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install` to install node packages in your system install this command
+### I have used chat gpt to get dummy data and add some of good stylings
 
 ### `npm start`
 
