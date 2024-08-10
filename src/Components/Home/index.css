@@ -1,0 +1,57 @@
+.kpi-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+  margin-top:0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+
+}
+.back{
+  background-image: url("http://blended-html.com/background-images/bi-background-black.png");
+  height:75vh;
+  padding-top:10px;
+}
+
+
+.kpi-box {
+  background: linear-gradient(to right, #eeddd8, #f9c7a1, #a4bdda);
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color:#ffffff;
+ 
+}
+
+.kpi-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.kpi-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+
+.kpi-box p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color:#ffffff;
+}
+.color-{
+  color:#ffffff;
+}

@@ -1,0 +1,193 @@
+
+
+.posts-listing-container {
+    padding: 20px;
+    background-color: #f0c9c9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .posts-container {
+    background-color: #fcf6f6;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .posts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .posts-table th, .posts-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .posts-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .posts-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .posts-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .posts-table a:hover {
+    text-decoration: underline;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .hide-button {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .hide-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 1rem;
+  }
+  
+
+.posts-listing-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.posts-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.posts-table th,
+.posts-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.posts-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.posts-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.posts-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.action-button {
+  border: none;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.hide-button {
+  background-color: #3498db;
+}
+
+.hide-button:hover {
+  background-color: #2980b9;
+}
+
+
+.pagination button {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #ddd;
+}
+
+.pagination span {
+  align-self: center;
+  font-size: 16px;
+  color: #333;
+}
+
+  
